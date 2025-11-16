@@ -1,0 +1,13 @@
+{
+    "description": "Ctrl-' to focus Alacritty Terminal",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "'",
+                "modifiers": { "mandatory": ["left_control"] }
+            },
+            "to": [{ "shell_command": "open -a 'Alacritty'" }],
+            "type": "basic"
+        }
+    ]
+}
