@@ -1,0 +1,13 @@
+{
+    "description": "Right Option to Quote",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "right_option",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "quote" }],
+            "type": "basic"
+        }
+    ]
+}
