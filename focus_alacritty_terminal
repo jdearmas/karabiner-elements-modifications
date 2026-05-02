@@ -1,0 +1,13 @@
+{
+    "description": "Focus Alacritty Terminal",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": { "mandatory": ["left_control", "right_command"] }
+            },
+            "to": [{ "shell_command": "open -a 'Alacritty'" }],
+            "type": "basic"
+        }
+    ]
+}
