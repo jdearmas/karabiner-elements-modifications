@@ -1,0 +1,26 @@
+{
+    "description": "Swap Apstrophe with Right Command",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "quote",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_command",
+                    "lazy": true
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_command",
+                "modifiers": { "optional": ["any"] }
+            },
+            "to": [{ "key_code": "quote" }],
+            "type": "basic"
+        }
+    ]
+}
